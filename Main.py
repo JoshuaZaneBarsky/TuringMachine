@@ -1,4 +1,4 @@
-from Add import Add
+from Arithmetic import Add
 
 t1 = ['▷', 0, 1, 1, 1, '☐']
 t2 = ['▷', 0, 1, 0, 1, '☐']
