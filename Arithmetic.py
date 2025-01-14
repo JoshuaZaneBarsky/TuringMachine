@@ -9,6 +9,7 @@ class Add:
         self.tm = TM(in_1, in_2, work, out)
 
     def add(self):
+        self.print_tapes()
         while self.tm.get_state() != 'halt':
             self.run_addition_program()
             self.print_tapes()
